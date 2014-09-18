@@ -62,15 +62,20 @@ class DistributionStructureImpl implements DistributionStructure {
         registerIgnoredPath("appclient/data**");
         registerIgnoredPath("appclient/log**");
         registerIgnoredPath("appclient/tmp**");
-        registerIgnoredPath("domain/configuration**");
+        //registerIgnoredPath("domain/configuration**");
         registerIgnoredPath("domain/data**");
         registerIgnoredPath("domain/log**");
         registerIgnoredPath("domain/servers**");
         registerIgnoredPath("domain/tmp**");
-        registerIgnoredPath("standalone/configuration**");
+        //registerIgnoredPath("standalone/configuration**");
         registerIgnoredPath("standalone/data**");
         registerIgnoredPath("standalone/log**");
         registerIgnoredPath("standalone/tmp**");
+
+        registerIgnoredPath("**/configuration/*_xml_history**");
+        registerIgnoredPath("**/configuration/host_xml_history**");
+        registerIgnoredPath("**/configuration/application-users.properties");
+        registerIgnoredPath("**/configuration/mgmt-users.properties");
     }
 
     @Override
