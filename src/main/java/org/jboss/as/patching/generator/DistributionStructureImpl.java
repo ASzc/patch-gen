@@ -76,6 +76,9 @@ class DistributionStructureImpl implements DistributionStructure {
         registerIgnoredPath("**/configuration/host_xml_history**");
         registerIgnoredPath("**/configuration/application-users.properties");
         registerIgnoredPath("**/configuration/mgmt-users.properties");
+
+        registerIgnoredPath("installation**");
+        registerIgnoredPath("vault**");
     }
 
     @Override
