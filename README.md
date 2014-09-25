@@ -2,7 +2,7 @@
 
 ## Usage
 
-Options are not optional and must exactly follow this format: `--optionname=value`. The `=` must be present when there is value. There are no short forms for the option names.
+Options are not optional and must exactly follow this format: `--optionname=value`. The `=` must be present when there is a value. There are no short forms for the option names.
 
 In the following sections, substitute `patch-gen` for `java -jar patch-gen-*-shaded.jar`, or set up an alias with
 
